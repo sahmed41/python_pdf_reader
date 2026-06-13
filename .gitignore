@@ -1,0 +1,3 @@
+# Ignore the virtual environment folder
+project_reader/
+test_environment/
