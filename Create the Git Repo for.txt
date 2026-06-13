@@ -1,0 +1,54 @@
+[] Create the Git Repo for PDF project.
+[] Create pdf reading function
+------------------------------------------------------------------
+Fundamental Features
+--------------------
+- Reading PDF
+- Merge multiple PDFs
+- Extract specific pages
+- Rotate pages
+- Delete pages
+
+
+Extra Features
+--------------
+- Editing text underlying formatting or font embedding.
+- Editing image underlying formatting or font embedding.
+- Highlighting, sticky notes, and drawing tools are a must for our review process.
+
+
+-------------------------------------------------------------------------------------------------------
+
+2. User Experience (UX) and Interface (UI)
+My team isn't entirely made up of tech-savvy power users. If the tool is too complex, they will just go back to our old, expensive software.
+
+Intuitive Navigation: The toolbars shouldn't be cluttered. The most common actions (save, highlight, add text, merge) should be front and center.
+
+Undo/Redo Reliability: People make mistakes. A robust undo/redo stack is non-negotiable for editing.
+
+Keyboard Shortcuts: For my power users, standard shortcuts (Ctrl+C, Ctrl+V, Ctrl+Z, Ctrl+F) must map exactly to what they expect.
+
+3. Performance and Reliability
+Time is money, and frustrating software kills productivity.
+
+Handling Large Files: The app cannot freeze or crash when we load a 200-page manual full of high-resolution images. It needs to handle memory efficiently.
+
+Non-Destructive Saving: If the app crashes while saving, the original file should not be corrupted.
+
+File Size Optimization: After editing and saving a PDF, the file size shouldn't inexplicably balloon.
+
+4. Security and Privacy
+We handle sensitive client data and internal financial reports.
+
+Local Processing: Unless specifically stated, I expect this tool to process documents locally on the machine. It should not be pinging a cloud server with our private data.
+
+Password Management: It must be able to open standard encrypted PDFs (provided we have the password) and allow us to export/save PDFs with password protection.
+
+5. My Expectations of You (The Developer)
+As a client, I am evaluating you just as much as the software.
+
+Transparent Communication: If a feature like "advanced OCR text recognition" is going to take three months instead of three weeks, tell me upfront. I value honesty over unrealistic promises.
+
+Clear Bug Reporting: I expect a straightforward way to report bugs to you, and I expect regular updates on when those bugs will be patched.
+
+Documentation: I don't need a massive manual, but a simple "Getting Started" guide or a changelog showing what you fixed in the latest version goes a long way in building trust.
